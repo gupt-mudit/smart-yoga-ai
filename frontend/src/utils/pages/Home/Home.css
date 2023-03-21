@@ -1,0 +1,126 @@
+
+.home-header {
+    background: skyblue;
+    color: black;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container {
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.jpg') ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  900px;
+}
+.header-btn:hover {
+    border-color: white;
+}
+#about-btn{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 44px;
+    margin-left: 20ex;
+    
+    font-style: italic;
+}
+
+.home-main {
+    margin: auto;
+    margin-top: -50px;
+    width: 100vw;
+    height: 100vh;    
+
+   
+   
+}
+
+.description {
+   
+    color: black;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.btn-section {
+   margin-top: -550px;
+   margin-right: 100px;
+    float: right;
+    height: 80vh;
+    width: 30vw;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-left: 125px;
+    background-color: rgba(24, 228, 235, 0);
+    color:black;
+    font-size: 24px;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 4px;
+    cursor: pointer;
+   
+}
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    padding: 5px 50px;
+  
+}
+#about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+.tutorials-container {
+    width: 70vw;
+    height: 100vh;
+    
+}
+.tutorials-heading {
+    font-size: 54px;
+    margin-left: 100px;
+    padding-top: 50px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tutorials-content {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 4px;
+}
+.tutorials-content-container {
+    width: 70%;
+}
